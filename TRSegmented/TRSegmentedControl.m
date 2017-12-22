@@ -105,7 +105,6 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    
 }
 
 - (void)drawRect:(CGRect)rect {
@@ -115,7 +114,7 @@
 - (void)setTitleItems:(NSArray <NSString *> *)titles
            imageItems:(NSArray <UIImage *> *)images{
     if (CGRectIsNull(self.frame)) {
-        DBLog(@"初始化尺寸为空！");
+        NSLog(@"初始化尺寸为空！");
     }
 	
     if ([titles count] > 0) {

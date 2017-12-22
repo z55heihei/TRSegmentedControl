@@ -13,6 +13,9 @@
 		425A79051FECE6EE00FCDC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425A79041FECE6EE00FCDC8F /* Assets.xcassets */; };
 		425A79081FECE6EE00FCDC8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425A79061FECE6EE00FCDC8F /* LaunchScreen.storyboard */; };
 		425A790B1FECE6EF00FCDC8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425A790A1FECE6EF00FCDC8F /* main.m */; };
+		425A79191FECE72B00FCDC8F /* TRSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 425A79131FECE72B00FCDC8F /* TRSegmentedControl.m */; };
+		425A791A1FECE72B00FCDC8F /* TRSegmentedPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 425A79161FECE72B00FCDC8F /* TRSegmentedPageView.m */; };
+		425A791B1FECE72B00FCDC8F /* TRSegmentedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 425A79181FECE72B00FCDC8F /* TRSegmentedPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		425A79071FECE6EE00FCDC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		425A79091FECE6EF00FCDC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425A790A1FECE6EF00FCDC8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		425A79121FECE72B00FCDC8F /* TRSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSegmentedControl.h; sourceTree = "<group>"; };
+		425A79131FECE72B00FCDC8F /* TRSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSegmentedControl.m; sourceTree = "<group>"; };
+		425A79141FECE72B00FCDC8F /* TRSegmentedControlHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSegmentedControlHeaders.h; sourceTree = "<group>"; };
+		425A79151FECE72B00FCDC8F /* TRSegmentedPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSegmentedPageView.h; sourceTree = "<group>"; };
+		425A79161FECE72B00FCDC8F /* TRSegmentedPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSegmentedPageView.m; sourceTree = "<group>"; };
+		425A79171FECE72B00FCDC8F /* TRSegmentedPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRSegmentedPageViewController.h; sourceTree = "<group>"; };
+		425A79181FECE72B00FCDC8F /* TRSegmentedPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRSegmentedPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 		425A78EF1FECE6EA00FCDC8F = {
 			isa = PBXGroup;
 			children = (
+				425A79111FECE72B00FCDC8F /* TRSegmented */,
 				425A78FA1FECE6EB00FCDC8F /* TRSegmentedControl */,
 				425A78F91FECE6EB00FCDC8F /* Products */,
 			);
@@ -69,6 +80,20 @@
 				425A790A1FECE6EF00FCDC8F /* main.m */,
 			);
 			path = TRSegmentedControl;
+			sourceTree = "<group>";
+		};
+		425A79111FECE72B00FCDC8F /* TRSegmented */ = {
+			isa = PBXGroup;
+			children = (
+				425A79121FECE72B00FCDC8F /* TRSegmentedControl.h */,
+				425A79131FECE72B00FCDC8F /* TRSegmentedControl.m */,
+				425A79141FECE72B00FCDC8F /* TRSegmentedControlHeaders.h */,
+				425A79151FECE72B00FCDC8F /* TRSegmentedPageView.h */,
+				425A79161FECE72B00FCDC8F /* TRSegmentedPageView.m */,
+				425A79171FECE72B00FCDC8F /* TRSegmentedPageViewController.h */,
+				425A79181FECE72B00FCDC8F /* TRSegmentedPageViewController.m */,
+			);
+			path = TRSegmented;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				425A79001FECE6EC00FCDC8F /* ViewController.m in Sources */,
+				425A791B1FECE72B00FCDC8F /* TRSegmentedPageViewController.m in Sources */,
+				425A79191FECE72B00FCDC8F /* TRSegmentedControl.m in Sources */,
+				425A791A1FECE72B00FCDC8F /* TRSegmentedPageView.m in Sources */,
 				425A790B1FECE6EF00FCDC8F /* main.m in Sources */,
 				425A78FD1FECE6EB00FCDC8F /* AppDelegate.m in Sources */,
 			);
